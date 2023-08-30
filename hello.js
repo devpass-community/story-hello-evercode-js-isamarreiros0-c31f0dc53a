@@ -1,5 +1,5 @@
 function hello(str) {
-    // Add your solution here!
+    return <h1>Hello, {str}!</h1>
 };
 
-module.exports = hello;
+export function hello()
